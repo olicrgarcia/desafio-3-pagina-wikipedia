@@ -3,8 +3,92 @@ body, html {
     padding: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-ul { list-style: none; padding-left: 5px; }
-a { color:blue; text-decoration: none;}
+
+figure.logo{
+
+    margin-left: 30px;
+
+}
+
+figure.quote{
+    background-color: rgb(221, 221, 221);
+    border-radius: 15px;
+    padding: 20px;
+
+}
+
+ul { list-style: none; 
+    padding-left: 5px; }
+
+table{
+    border: 1px solid rgb(150, 150, 150);
+    padding: 0px;
+    margin-bottom:30px ;
+    width: 100%;
+    text-align: center;
+    border-spacing: 0px;
+}
+
+thead{
+    background-color: rgb(209, 209, 209);
+
+}
+
+section{
+    margin-bottom: 40px;
+
+}
+
+
+
+tr:nth-child(even){
+    background-color: rgb(230, 230, 230);
+}
+
+.img_content{
+    float: left;
+
+}
+
+.img_content{
+    font-size: small;
+    font-style: italic;
+    background-color: rgb(230, 230, 230);
+    text-align: center;
+    border: 1px solid rgb(179, 179, 179);
+    padding: 5px;
+
+}
+
+.img_content > img{
+    border: 1px solid rgb(179, 179, 179);
+
+}
+
+.quote figcaption{
+    margin-left:40px;
+    font-style: italic;
+
+}
+
+summary{
+    font-style: italic;
+    margin-bottom: 20px;
+
+}
+
+details p{
+    background-color: rgb(221, 221, 221);
+    border-radius: 15px;
+    padding: 20px;
+
+
+}
+
+a { color:blue; text-decoration: none;
+
+}
+
 .bar {
     background-color: #f9f9fb;
     padding:15px;
@@ -21,18 +105,67 @@ a { color:blue; text-decoration: none;}
     grid-template-columns: minmax(0,15rem) minmax(0,2.5fr) minmax(0,15rem);
     padding-left: 1rem;
     padding-right: 1rem;
+    line-height: 30px;
 }
 .footer {
+    text-align: center;
     min-height: 100px;
     border-top: solid 1px #cdcdcd;
+    background-color: rgb(247, 247, 247);
 }
+
+.footer li{
+    padding: 0px 20px 0px 20px;
+    display: inline-block;
+
+}
+
 .anchors {
     border-left: solid 1px #cdcdcd;
     padding-left: 15px;
+    line-height: 40px;
 }
+
+li a {
+    color: black;
+
+}
+
+li a:hover{
+    color: blue;
+    text-shadow: rgba(0, 0, 255, 0.455) 5px 2px 30px;
+
+}
+
+.anchors h2{
+    font-size: large;
+}
+
+.anchors span{
+    z-index: 1;
+    position: fixed;
+    overflow-x: hidden;
+
+}
+
 .sidebar {
     border-right: solid 1px #cdcdcd;
+    line-height: 40px;
 }
-figure {
-    text-align: center;
+
+.sidebar h2{
+    font-size: large;
+
+}
+
+.sidebar span{
+    z-index: 1;
+    position: fixed;
+    overflow-x: hidden;
+
+}
+
+figure{
+    text-align: left;
+    margin-left: 0px
 }
